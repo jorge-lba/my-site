@@ -53,6 +53,7 @@ const Home: NextPage = () => {
           salutation='Olá, meu nome é'
           name='Jorge Alegretti'
           message='Sou desenvolvedor back-end.'
+          description='Atualmente estou focado em construir aplicações bem estruturadas seguindo as melhores práticas de mercado, para você ter um negócio sustentável.'
         />              
         <IconBox/>
       </section>

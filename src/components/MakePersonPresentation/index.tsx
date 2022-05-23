@@ -11,8 +11,7 @@ export const MakePersonPresentation = (props: PropsMakePersonPresentation) => {
       <div className='flex mb-8'>
           <div className='container max-w-xl text-base'>
             <span className='mt-10 text-slate-400'>
-              Atualmente estou focado em construir aplicações bem estruturadas 
-              seguindo as melhores práticas do mercado para você ter um negócio sustentável.
+              {props.description}
             </span>          
           </div>
       </div>
@@ -24,4 +23,5 @@ type PropsMakePersonPresentation = {
   salutation: string
   name: string
   message: string
+  description: string
 }
